@@ -24,3 +24,50 @@ a {
     background: black;
   }
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Kommissar X-Condensed bold";
+  src: url(../public/fonts/KommissarFont/Kommissar_Condensed_Thin.otf);
+}
+@font-face {
+  font-family: "Kommissar X-Condensed Regular";
+  src: url(../public/fonts/KommissarFont/Kommissar_Condensed_Regular.otf);
+}
+@font-face {
+  font-family: "Basement Grotesque";
+  src: url(../public/fonts/BasementGrotesque-Black_v1.202/BasementGrotesque-Black_v1.202.otf);
+}
+.image {
+  position: absolute;
+  width: 563px;
+  height: 563px;
+  left: 379px;
+  top: -421px;
+
+  background: #6f6e6e;
+  filter: blur(227px);
+  /* --tw-shadow: 0px 1px 24pxrgba(0,0,0,.05);
+  --tw-shadow-colored: 0px 1px 24pxvar(--tw-shadow-color);
+  --tw-bg-opacity: 0.6;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(227px); */
+  /* box-shadow: 0 0 #0000,0 0 #0000,var(--tw-shadow); */
+  /* box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow); */
+}
+.dotimage {
+  background-image: url(https://tuk-cdn.s3.amazonaws.com/can-uploader/image%2031.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.dotimageone {
+  background-size: cover;
+width: 670px;
+  height: 387px;
+  background-repeat: no-repeat;
+background-image: url("https://tuk-cdn.s3.amazonaws.com/can-uploader/Group%20812287%20%282%29.svg");
+
+  
+}
