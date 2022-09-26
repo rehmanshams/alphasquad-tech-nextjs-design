@@ -255,7 +255,7 @@ export const home = () => {
                   </p>
                 </div>
 
-                <div className="border-t-2 bg-cover w-full  mt-[127px] sm:mt-[224px] md:mt-[224px] lg:mt-[224px]  xl:mt-[224px] 2xl:mt-[224px] bg-nonrepeat bg-imagebg  h-72 2xl:h-96 sm:h-96 md:h-96 lg:h-96 xl:h-96  border-l-1 border-r-0 		border-[1px] border-gray-400	">
+                <div className="border-t-2 bg-cover w-full relative mt-[127px] sm:mt-[224px] md:mt-[224px] lg:mt-[224px]  xl:mt-[224px] 2xl:mt-[224px] bg-nonrepeat bg-imagebg  h-72 2xl:h-96 sm:h-96 md:h-96 lg:h-96 xl:h-96  border-l-1 border-r-0 		border-[1px] border-gray-400	">
                   <div className="absolute dotimageone"> </div>
                   <p className=" relative align-center mt-[118px] text-center 2xl:mt-32 lg:mt-36 md:mt-36 sm:mt-36 xl:mt-32 	font-Bs1 text-gray-600 sm:text-[30px] xl:text-[54px] ">
                     Dope stuff behind<br></br> the box
