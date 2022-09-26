@@ -41,9 +41,9 @@ export const home = () => {
         </div>
         <div>
           <p className="pt-[50px] text-gray-500 2xl:text-[15px] text-center text-[9px] w-full sm:text-[11px] md:text-[11px] xl:text-[14px] lg:text-[11px] ">
-            "AlphaSquad is an excellent design team. Their quality of <br></br>
-            work and design skills are by far the best I've found. I'll<br></br>
-            happily be working with AlphaSquad again soon."
+            &quot;AlphaSquad is an excellent design team. Their quality of <br></br>
+            work and design skills are by far the best I&apos;ve found. I&apos;ll<br></br>
+            happily be working with AlphaSquad again soon.&quot;
           </p>
         </div>
         <div className=" flex justify-center">
@@ -325,7 +325,7 @@ export const home = () => {
                     30 minutes We gotcha No strings attached{" "}
                   </p>
                   <button className="text-gray-500 mt-4 text-center 2xl:w-72 w-32 md:w-60  lg:w-60 h-7 sm:h-12  md:h-12  2xl:h-12 lg:h-12 xl:h-12 border-gray-500 border-[1px] sm:w-40 xl:w-60">
-                    Let's get to it
+                    Let&apos;s get to it
                   </button>
                 </div>
               </div>
